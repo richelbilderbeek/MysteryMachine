@@ -82,27 +82,30 @@ const bool debug = false;
 
 //Side 1
 const int pin_sensor1 =  2;
-const int pin_helper1   =  3;
+const int pin_helper1 =  3;
 const int pin_1_1     =  6;
 const int pin_1_2     =  7;
 const int pin_1_3     =  8;
-CapacitiveSensor mijn_cap_sensor1 = CapacitiveSensor(pin_helper1,pin_sensor1);        
+CapacitiveSensor sensor1 
+  = CapacitiveSensor(pin_helper1,pin_sensor1);        
 
 //Side 2
 const int pin_sensor2 =  4;
-const int pin_helper2   =  5;
+const int pin_helper2 =  5;
 const int pin_2_1     =  9;
 const int pin_2_2     = 10;
 const int pin_2_3     = 11;
-CapacitiveSensor mijn_cap_sensor2 = CapacitiveSensor(pin_helper2,pin_sensor2);        
+CapacitiveSensor sensor2 
+  = CapacitiveSensor(pin_helper2,pin_sensor2);        
 
 //Mid
 const int pin_sensor3 = A4;
-const int pin_helper3   = A5;
-const int pin_mid_1     = A0;
-const int pin_mid_2     = A1;
-const int pin_mid_3     = A2;
-CapacitiveSensor mijn_cap_sensor3 = CapacitiveSensor(pin_helper3,pin_sensor3);        
+const int pin_helper3 = A5;
+const int pin_mid_1   = A0;
+const int pin_mid_2   = A1;
+const int pin_mid_3   = A2;
+CapacitiveSensor sensor3 
+  = CapacitiveSensor(pin_helper3,pin_sensor3);        
 
 //Which of player 1's LEDs is active?
 int p1 = 0;
@@ -129,9 +132,9 @@ void loop()
   const int samples = 30;
 
   //Measure the capacitive sensors
-  const int r1 = mijn_cap_sensor1.capacitiveSensor(samples);
-  const int r2 = mijn_cap_sensor2.capacitiveSensor(samples);
-  const int r3 = mijn_cap_sensor3.capacitiveSensor(samples);
+  const int r1 = sensor1.capacitiveSensor(samples);
+  const int r2 = sensor2.capacitiveSensor(samples);
+  const int r3 = sensor3.capacitiveSensor(samples);
 
   if (debug)
   {

@@ -8,10 +8,17 @@ There are two types of MysteryMachines:
 
 If you prefer a simulation of MysteryMachine, go to [SimMysteryMachine](http://richelbilderbeek.nl/ToolSimMysteryMachine.htm).
 
-## MysteryMachine pictures
+## MysteryMachine with capacitative sensors
 
-![Top](MysteryMachineTop_1_0.jpg)
-![Side](MysteryMachineSide_1_0.jpg)
-![Breadboard](MysteryMachineBreadboard_1_0.png)
-![Schematic](MysteryMachineSchematic_1_0.png)
-![PCB](MysteryMachinePcb_1_0.png)
+![Breadboard schematic](CapacitiveSensors/MysteryMachineBreadboard.png)
+
+* [Schematic (Fritzing)](CapacitiveSensors/MysteryMachine.fzz)
+* [Code (Arduino IDE)](CapacitiveSensors/MysteryMachine/MysteryMachine.ino)
+
+## MysteryMachine with rotary switches
+
+![Top](RotarySwitches/MysteryMachineTop_1_0.jpg)
+![Side](RotarySwitches/MysteryMachineSide_1_0.jpg)
+![Breadboard](RotarySwitches/MysteryMachineBreadboard_1_0.png)
+![Schematic](RotarySwitches/MysteryMachineSchematic_1_0.png)
+![PCB](RotarySwitches/MysteryMachinePcb_1_0.png)
