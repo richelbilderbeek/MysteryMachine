@@ -10,6 +10,10 @@ If you prefer a simulation of MysteryMachine, go to [SimMysteryMachine](http://r
 
 ## MysteryMachine with capacitative sensors
 
+![Side](CapacitiveSensors/MysteryMachine1.jpg)
+![Side](CapacitiveSensors/MysteryMachine2.jpg)
+![Top](CapacitiveSensors/MysteryMachine3.jpg)
+
 ![Breadboard schematic](CapacitiveSensors/MysteryMachineBreadboard.png)
 
 * [Schematic (Fritzing)](CapacitiveSensors/MysteryMachine.fzz)
