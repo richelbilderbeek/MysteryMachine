@@ -1,5 +1,7 @@
 # MysteryMachine
 
+[![Build Status](https://travis-ci.org/richelbilderbeek/MysteryMachine.svg?branch=master)](https://travis-ci.org/richelbilderbeek/MysteryMachine)
+
 MysteryMachine is a project about a machine with a certain function, which is kept a mystery on purpose.
 
 There are two types of MysteryMachines:
