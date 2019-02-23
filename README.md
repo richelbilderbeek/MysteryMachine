@@ -29,3 +29,5 @@ If you prefer a simulation of MysteryMachine, go to [SimMysteryMachine](https://
 ![Breadboard](RotarySwitches/MysteryMachineBreadboard_1_0.png)
 ![Schematic](RotarySwitches/MysteryMachineSchematic_1_0.png)
 ![PCB](RotarySwitches/MysteryMachinePcb_1_0.png)
+
+ * Video's: [YouTube](https://youtu.be/2FiDFJui2Dw) [download (.avi)](http://richelbilderbeek.nl/mystery_machine_analog.avi)
