@@ -18,7 +18,7 @@ If you prefer a simulation of MysteryMachine, go to [SimMysteryMachine](https://
 ![Breadboard schematic](CapacitiveSensors/MysteryMachineBreadboard.png)
 
 * [Schematic (Fritzing)](CapacitiveSensors/MysteryMachine.fzz)
-* [Code (Arduino IDE)](CapacitiveSensors/MysteryMachine/MysteryMachine.ino)
+* [Code (Arduino IDE)](CapacitiveSensors/MysteryMachine/src/src.ino)
 
 ## MysteryMachine with rotary switches
 
