@@ -15,7 +15,7 @@ If you prefer a simulation of MysteryMachine, go to [SimMysteryMachine](https://
 ![Side](CapacitiveSensors/MysteryMachine2.jpg)
 ![Top](CapacitiveSensors/MysteryMachine3.jpg)
 
-![Breadboard schematic](CapacitiveSensors/MysteryMachineBreadboard.png)
+![Breadboard schematic](CapacitiveSensors/MysteryMachineBreadboardTidy.png)
 
 * [Schematic (Fritzing)](CapacitiveSensors/MysteryMachine.fzz)
 * [Code (Arduino IDE)](CapacitiveSensors/src/src.ino)
