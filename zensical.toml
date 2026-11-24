@@ -1,6 +1,6 @@
 [project]
 site_name = "MysteryMachine"
-site_url = "https://richelbilderbeek.github.io/mysterymachine/"
+site_url = "https://richelbilderbeek.github.io/MysteryMachine/"
 repo_url = "https://github.com/richelbilderbeek/MysteryMachine"
 edit_uri = "blob/master/docs/"
 
