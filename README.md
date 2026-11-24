@@ -1,31 +1,14 @@
 # MysteryMachine
 
-MysteryMachine is a project about a machine with a certain function, which is kept a mystery on purpose.
+[![Create the Zensical website](https://github.com/richelbilderbeek/MysteryMachine/actions/workflows/create_zensical_website.yaml/badge.svg?branch=master)](https://github.com/richelbilderbeek/MysteryMachine/actions/workflows/create_zensical_website.yaml)
 
-There are multiple types of MysteryMachines:
+- [Go to the nicely rendered site](https://richelbilderbeek.github.io/mysterymachine/)
 
- * MysteryMachine: the original
- * MysteryMachineDual: has two push buttons and two toggle buttons instead of one of each. This was chosen so to facilitate a fitting casing around it
+The source of the website is in the [`docs`](docs) folder,
+with the start page at [`docs/README.md`](docs/README.md).
 
-If you prefer a simulation of MysteryMachine, go to [SimMysteryMachine](https://github.com/richelbilderbeek/SimMysteryMachine).
+To view the website locally, run:
 
-## MysteryMachine with capacitative sensors
-
-![Side](CapacitiveSensors/MysteryMachine1.jpg)
-![Side](CapacitiveSensors/MysteryMachine2.jpg)
-![Top](CapacitiveSensors/MysteryMachine3.jpg)
-
-![Breadboard schematic](CapacitiveSensors/MysteryMachineBreadboardTidy.png)
-
-* [Schematic (Fritzing)](CapacitiveSensors/MysteryMachine.fzz)
-* [Code (Arduino IDE)](CapacitiveSensors/src/src.ino)
-
-## MysteryMachine with rotary switches
-
-![Top](RotarySwitches/MysteryMachineTop_1_0.jpg)
-![Side](RotarySwitches/MysteryMachineSide_1_0.jpg)
-![Breadboard](RotarySwitches/MysteryMachineBreadboard_1_0.png)
-![Schematic](RotarySwitches/MysteryMachineSchematic_1_0.png)
-![PCB](RotarySwitches/MysteryMachinePcb_1_0.png)
-
- * Video's: [YouTube](https://youtu.be/2FiDFJui2Dw) [download (.avi)](http://richelbilderbeek.nl/mystery_machine_analog.avi)
+```bash
+./scripts/deploy_zensical_website_locally.sh
+```
